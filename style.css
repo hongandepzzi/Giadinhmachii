@@ -1,0 +1,79 @@
+p {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: orange;
+    cursor: pointer;
+}
+p:hover {
+    color: blue;
+    text-decoration: underline;
+}
+p:active {
+    opacity: 0.8;
+}
+.cat {
+    width: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    transition: width 2s;
+}
+.cat:hover {
+    width: 300px;
+}
+.sip {
+    width: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    transition: width 2s;
+}
+.sip:hover {
+    width: 300px;
+}
+.sip:active {
+    transform: scale(0.98);
+    /* Scaling button to 0.98 to its original size */
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+    /* Lowering the shadow */
+}
+.bo {
+    width: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    transition: width 2s;
+}
+.bo:hover {
+    width: 300px;
+}
+.bill {
+    width: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    transition: width 2s;
+}
+.bill:hover {
+    width: 300px;
+}
+.trang {
+    width: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    transition: width 2s;
+}
+.trang:hover {
+    width: 300px;
+}
+.tran {
+    margin-bottom: 1000px;
+}
